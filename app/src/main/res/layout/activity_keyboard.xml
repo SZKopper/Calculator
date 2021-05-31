@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/calc_bg">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="4"
+        android:layout_gravity="center">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_clean"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_sign_2"
+            android:text="@string/key_clean"
+            android:textSize="10pt"
+            android:layout_margin="5dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_change_sign"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_2"
+            android:text="@string/key_change_sign"
+            android:textSize="10pt"
+            android:layout_margin="5dp"
+             />
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_2"
+            android:text="@string/key_percent"
+            android:textSize="10pt"
+            android:layout_margin="5dp"
+           />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_split"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_1"
+            android:text="@string/key_split"
+            android:textColor="@color/white"
+            android:textSize="10pt"
+            android:layout_margin="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_1"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_2"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_3"
+            android:textColor="@color/white"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_multiply"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_1"
+            android:text="@string/key_multiply"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_4"
+            android:textColor="@color/white"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_5"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_6"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_minus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_1"
+            android:text="@string/key_minus"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_7"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_8"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_9"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_1"
+            android:text="@string/key_plus"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_0"
+            android:textColor="@color/white"
+            android:layout_columnSpan="2"
+            android:layout_gravity="fill_horizontal"
+            android:layout_margin="5dp"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_dot"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_numbers"
+            android:text="@string/key_dot"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+             />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/key_result"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_sign_1"
+            android:text="@string/key_result"
+            android:textColor="@color/white"
+            android:layout_margin="5dp"
+            />
+    </GridLayout>
+
+</FrameLayout>
