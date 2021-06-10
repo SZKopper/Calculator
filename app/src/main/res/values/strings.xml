@@ -19,4 +19,5 @@
     <string name="key_split">/</string>
     <string name="key_multiply">x</string>
     <string name="key_result">=</string>
+    <string name="defaultText">0</string>
 </resources>

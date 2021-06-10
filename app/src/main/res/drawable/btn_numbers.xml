@@ -2,10 +2,11 @@
 <inset xmlns:android="http://schemas.android.com/apk/res/android">
     <ripple android:color="?attr/colorControlHighlight">
         <item>
-            <shape android:shape="rectangle"
+            <shape
+                android:shape="rectangle"
                 android:tint="#424242">
-                <corners android:radius="20dp"/>
-                <padding android:bottom="5dp"/>
+                <corners android:radius="20dp" />
+                <padding android:bottom="5dp" />
             </shape>
         </item>
     </ripple>
